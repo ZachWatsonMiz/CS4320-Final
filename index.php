@@ -18,8 +18,11 @@
         <script src="script.js"></script>
     </head>
 
-    <body>
+    <body id="page">
         <div class="jumbotron">
+            <div id="header">
+                <h1>Not Your Daddy's Color Generator</h1>
+            </div>
 
             <!-- Form works with utilities/handler.php -- DO NOT MODIFY -->
             <form action="utilities/handler.php" method="POST">
@@ -55,6 +58,20 @@
                 <br/>
                 <button name="submit" type="submit" class="btn btn-outline-primary">Generate color palette</button>
             </form>
-        </div>
+
+    <div id="generatedCSS">
+    
+    </div>
+    
+    <footer id="footer">
+    <p>Zimmer Intelligence LLC</p>
+    <address>
+            Written by <a href="mailto:jlz6w7@mail.missouri.edu">Jacob Zimmer</a>,
+                       <a href="mailto:sig972@mail.missouri.edu">Skyler Gunn</a>, 
+                       <a href="mailto:watkinssco@mail.missouri.edu">Scott Watkins</a>, &
+                       <a href="mailto:watsonzm@mail.missouri.edu">Zach Watson</a>
+            </address>
+    </footer>
+</div>
     </body>
 </html>
